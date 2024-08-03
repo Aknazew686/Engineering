@@ -1,0 +1,9 @@
+.map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 40px;
+
+  @include vp-1023 {
+    height: 339px;
+  }
+}

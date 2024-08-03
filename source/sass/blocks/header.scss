@@ -1,0 +1,79 @@
+.header {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    background-color: $color-default-white;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    &--opened {
+      position: fixed;
+      z-index: 12;
+      top: 0;
+      left: 0;
+      padding-bottom: 0;
+      height: 100vh;
+      width: 100vw;
+      display: block;
+    }
+  }
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+
+    &--opened {
+      padding-bottom: 19px;
+      padding-left: 16px;
+      padding-right: 16px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    @include vp-767 {
+      width: 100%;
+    }
+  }
+
+  &__logo-image {
+    &--mobile {
+      display: none;
+
+      @include vp-1023 {
+        display: block;
+      }
+    }
+
+    &--desctop {
+      @include vp-1023 {
+        display: none;
+      }
+    }
+  }
+
+  &__toggle {
+    width: 35px;
+    height: 26px;
+    padding: 0;
+    margin-left: auto;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    display: none;
+
+    &--closed {
+      background-image: url("../img/svg/icon-menu-burger.svg");
+    }
+
+    &--opened {
+      width: 25px;
+      background-image: url("../img/svg/icon-menu-cross.svg");
+    }
+
+    @include vp-767 {
+      display: block;
+    }
+  }
+}

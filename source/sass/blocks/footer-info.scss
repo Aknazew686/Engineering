@@ -1,0 +1,34 @@
+.footer-info {
+  &__list {
+    @include list-reset;
+
+    @include vp-1023 {
+      text-align: center;
+    }
+  }
+
+  &__item {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    color: $color-default-white;
+    display: inline-block;
+
+    &--link {
+      &:hover,
+      &:focus {
+        opacity: 0.6;
+    }
+    }
+  }
+}

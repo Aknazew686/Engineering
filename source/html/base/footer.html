@@ -1,0 +1,58 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      @@if (!context.index) {
+    <a class="footer__logo" href="index.html" aria-label="Переход на главную">
+      <svg class="footer__logo-image footer__logo-image--desctop" width="200" height="62">
+        <use xlink:href="#logo-footer"></use>
+      </svg>
+      <svg class="footer__logo-image footer__logo-image--mobile" width="130" height="40">
+        <use xlink:href="#logo-footer-mobile"></use>
+      </svg>
+    </a>
+    }
+    @@if (context.index) {
+    <a class="footer__logo" aria-label="Переход на главную">
+      <svg class="footer__logo-image footer__logo-image--desctop" width="200" height="62">
+        <use xlink:href="#logo-footer"></use>
+      </svg>
+      <svg class="footer__logo-image footer__logo-image--mobile" width="130" height="40">
+        <use xlink:href="#logo-footer-mobile"></use>
+      </svg>
+    </a>
+    }
+    <div class="footer-navigation">
+      <ul class="footer-navigation__list">
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="company.html">О нас</a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="technologies.html">Технологии</a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="complex.html">Комплексные решения для линий</a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-info">
+      <ul class="footer-info__list">
+        <li class="footer-info__item">
+          <p class="footer-info__text">142800, Россия, Московская обл., г. Ступино, ул.Крылова, д 11.</p>
+        </li>
+        <li class="footer-info__item">
+          <p class="footer-info__text">График работы: пн-пт с 08:00 до 18:00</p>
+        </li>
+        <li class="footer-info__item">
+          <a href="tel:+79254432200" class="footer-info__text footer-info__text--link">+7 (925) 443 22 00</a>
+        </li>
+        <li class="footer-info__item">
+          <a href="mailto:vv@lice.ru" class="footer-info__text footer-info__text--link">vv@lice.ru</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</footer>

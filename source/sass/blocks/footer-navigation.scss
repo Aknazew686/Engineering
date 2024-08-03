@@ -1,0 +1,31 @@
+.footer-navigation {
+  margin-right: auto;
+
+  @include vp-1023 {
+    display: none;
+  }
+
+  &__list {
+    @include list-reset;
+  }
+
+  &__item {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    color: $color-default-white;
+
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+  }
+}

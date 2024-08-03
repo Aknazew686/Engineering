@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  @@include("source/html/base/head.html")
+  <title>Complex Engineering — Главная</title>
+
+</head>
+<body>
+
+  <div style="display: none;">
+    @@include("build/img/sprite_auto.svg")
+  </div>
+
+  <div class="wrapper">
+    <!-- для внутренних страниц используйте "headerActiveLinkIndex": 0\1\2 -->
+    @@include("source/html/base/header.html", {
+      "index": true
+    })
+
+    <main>
+      @@include("source/html/block/main-description.html")
+      @@include("source/html/block/info.html")
+      @@include("source/html/block/catalog.html")
+      @@include("source/html/block/advantages.html")
+
+    </main>
+
+    @@include("source/html/base/footer.html", {
+      "index": true
+    })
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>

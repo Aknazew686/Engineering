@@ -1,0 +1,21 @@
+.main-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  color: $color-denim;
+
+  &--size {
+    text-align: start;
+    width: 430px;
+    font-size: 36px;
+    margin-bottom: 25px;
+
+    @include vp-1439 {
+      width: auto;
+    }
+  }
+}

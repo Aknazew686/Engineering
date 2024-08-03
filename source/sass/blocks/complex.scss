@@ -1,0 +1,12 @@
+.complex {
+  padding-top: 60px;
+  padding-bottom: 90px;
+
+  @include vp-1023 {
+    padding-bottom: 50px;
+  }
+
+  &__img {
+    margin-bottom: 40px;
+  }
+}

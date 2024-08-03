@@ -1,0 +1,50 @@
+.info {
+  margin-bottom: 28px;
+
+  &__wrapper {
+    display: flex;
+
+    @include vp-767 {
+      display: block;
+    }
+  }
+
+  &__wrapper-text {
+    background-color: $color-white-smoke;
+    padding: 78px 84px 0 70px;
+
+    @include vp-1439 {
+      padding: 8px 20px 0 15px;
+      width: 67%;
+    }
+
+    @include vp-767 {
+      width: auto;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    width: 430px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: $color-matterhorn;
+
+    @include vp-1439 {
+      width: auto;
+      font-size: 15px;
+    }
+
+    @include vp-767 {
+      padding-bottom: 25px;
+    }
+  }
+
+  &__img {
+    @include vp-767 {
+      width: 100%;
+    }
+  }
+}
