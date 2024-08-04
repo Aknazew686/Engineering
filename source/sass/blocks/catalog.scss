@@ -14,13 +14,13 @@
 
   &__item {
     border: 2px solid $color-gainsboro;
-    padding: 21px 17px 0 17px;
+    padding: 10px 10px 0 17px;
     margin-bottom: 30px;
-    width: 370px;
+    width: 530px;
     background-color: #ffffff;
 
     @include vp-1279 {
-      width: 32%;
+      width: 45%;
       padding: 17px 13px 0 13px;
     }
 

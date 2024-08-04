@@ -149,18 +149,18 @@
           <nav class="main-nav">
             <div class="main-nav__wrapper">
               <ul class="main-nav__list">
-                <li class="main-nav__item">
-                  <a class="main-nav__link " href="#">Каталог</a>
-                </li>
-                <li class="main-nav__item">
-                  <a class="main-nav__link " href="complex.html">Комплексные решения для линий</a>
-                </li>
-                <li class="main-nav__item">
-                  <a class="main-nav__link " href="technologies.html">Технологии</a>
-                </li>
-                <li class="main-nav__item">
-                  <a class="main-nav__link " href="company.html">О нас</a>
-                </li>
+                <!--<li class="main-nav__item">
+              <a class="main-nav__link "  href="#" >Каталог</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link "  href="complex.html" >Комплексные решения для линий</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link "  href="technologies.html" >Технологии</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link "  href="company.html" >О нас</a>
+            </li> -->
                 <li class="main-nav__item">
                   <a class="main-nav__link " href="contacts.html">Контакты</a>
                 </li>
@@ -172,11 +172,11 @@
     </header>
     <main>
       <section class="main-description">
+        <p class="main-description__info">сайт находится на модернизации</p>
         <div class="container">
-          <h1 class="main-description__heading">Эксперт по разработке промышленного оборудования</h1>
+          <h1 class="main-description__heading">Эксперт по разработке оборудования</h1>
           <p class="main-description__text">
-            Разработка и производство технологического оборудования, роботов, транспортеров, упаковщиков и прочих машин.
-          </p>
+            Разработка и производство технологического оборудования, роботизированных комплексов, упаковщиков и прочих машин.</p>
         </div>
       </section>
       <section class="info">
@@ -184,9 +184,9 @@
           <div class="info__wrapper">
             <div class="info__wrapper-text">
               <h2 class="main-heading main-heading--size">Почему Complex Engineering?</h2>
-              <p class="info__text">Компания работает в сфере автоматизации … лет и собрала группу квалифицированных
-                инженеров-новаторов и IT-специалистов, способных предоставить профессиональные технические услуги, надежную поставку
-                запасных частей и комплексное послепродажное обслуживание.</p>
+              <p class="info__text">Компания <strong>Complex Engineering</strong> собрала группу квалифицированных инженеров-новаторов и
+                производственных специалистов, способных предоставить профессиональные технические решения, надежную поставку
+                и комплексное обслуживание.</p>
             </div>
             <picture>
               <source type="image/webp" srcset="img/content/description.webp 1x, img/content/description@2x.webp 2x">
@@ -201,11 +201,13 @@
           <ul class="catalog__list">
             <li class="catalog__item">
               <div class="catalog-card">
-                <picture>
-                  <source type="image/webp" srcset="img/content/card-palletizer.webp 1x, img/content/card-palletizer@2x.webp 2x">
-                  <img class="catalog-card__img" src="img/content/card-palletizer.jpg" srcset="img/content/card-palletizer@2x.jpg 2x" alt="Картинка паллетайзера">
-                </picture>
-                <p class="catalog-card__heading">Паллетайзеры</p>
+                <div class="catalog-card__wrapper">
+                  <p class="catalog-card__heading">Оборудование</p>
+                  <picture>
+                    <source type="image/webp" srcset="img/content/equipment.webp 1x, img/content/equipment@2x.webp 2x">
+                    <img class="catalog-card__img" src="img/content/equipment.jpg" srcset="img/content/equipment@2x.jpg 2x" alt="Картинка паллетайзера">
+                  </picture>
+                </div>
                 <p class="catalog-card__text">Пустые поддоны подаются из магазина паллет и устанавливаются в рабочее
                   положение, после чего идет процесс формирования паллеты.
                 </p>
@@ -214,68 +216,18 @@
             </li>
             <li class="catalog__item">
               <div class="catalog-card">
-                <picture>
-                  <source type="image/webp" srcset="img/content/card-depalletizer.webp 1x, img/content/card-depalletizer@2x.webp 2x">
-                  <img class="catalog-card__img" src="img/content/card-depalletizer.jpg" srcset="img/content/card-depalletizer@2x.jpg 2x" alt="Картинка депаллетайзера">
-                </picture>
-                <p class="catalog-card__heading">Депаллетайзер</p>
+                <div class="catalog-card__wrapper">
+                  <p class="catalog-card__heading">Нестандартное оборудование</p>
+                  <picture>
+                    <source type="image/webp" srcset="img/content/non-standard-equipment.webp 1x, img/content/non-standard-equipment@2x.webp 2x">
+                    <img class="catalog-card__img catalog-card__img--non-standard" src="img/content/non-standard-equipment.jpg" srcset="img/content/non-standard-equipment@2x.jpg 2x" alt="Картинка депаллетайзера">
+                  </picture>
+                </div>
                 <p class="catalog-card__text">Пустые поддоны подаются из магазина паллет и устанавливаются в рабочее
                   положение, после чего идет процесс формирования паллеты.
                 </p>
                 <a class="catalog-card__link" href="#">Подробнее</a>
               </div>
-            </li>
-            <li class="catalog__item">
-              <div class="catalog-card">
-                <picture>
-                  <source type="image/webp" srcset="img/content/card-pallet-wrapper.webp 1x, img/content/card-pallet-wrapper@2x.webp 2x">
-                  <img class="catalog-card__img" src="img/content/card-pallet-wrapper.jpg" srcset="img/content/card-pallet-wrapper@2x.jpg 2x" alt="Картинка паллетообмотчика">
-                </picture>
-                <p class="catalog-card__heading">Паллетообмотчик</p>
-                <p class="catalog-card__text">Пустые поддоны подаются из магазина паллет и устанавливаются в рабочее
-                  положение, после чего идет процесс формирования паллеты.
-                </p>
-                <a class="catalog-card__link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="catalog__item">
-              <div class="catalog-card">
-                <picture>
-                  <source type="image/webp" srcset="img/content/card-stacker.webp 1x, img/content/card-stacker@2x.webp 2x">
-                  <img class="catalog-card__img" src="img/content/card-stacker.jpg" srcset="img/content/card-stacker@2x.jpg 2x" alt="Картинка автоматического укладчика">
-                </picture>
-                <p class="catalog-card__heading">Автоматический укладчик в гофрокороб</p>
-                <p class="catalog-card__text">Оборудование предназначено для автоматической укладки готовой продукции в
-                  гофрокороб.
-                </p>
-                <a class="catalog-card__link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="catalog__item">
-              <div class="catalog-card">
-                <picture>
-                  <source type="image/webp" srcset="img/content/card-chaper.webp 1x, img/content/card-chaper@2x.webp 2x">
-                  <img class="catalog-card__img" src="img/content/card-chaper.jpg" srcset="img/content/card-chaper@2x.jpg 2x" alt="Картинка формирования коробов">
-                </picture>
-                <p class="catalog-card__heading">Формирователь коробов</p>
-                <p class="catalog-card__text">Автоматическое оборудование для изготовления гофрокоробов и картонных лотков. Применяется метод формирования дна и его скрепления клеящей лентой типа «скотч».
-                </p>
-                <a class="catalog-card__link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="catalog__item">
-              <div class="catalog-card">
-                <picture>
-                  <source type="image/webp" srcset="img/content/card-transportation.webp 1x, img/content/card-transportation@2x.webp 2x">
-                  <img class="catalog-card__img" src="img/content/card-transportation.jpg" srcset="img/content/card-transportation@2x.jpg 2x" alt="Картинка линии по транспортированию груженных паллет">
-                </picture>
-                <p class="catalog-card__heading">Линия по транспортированию груженных паллет</p>
-                <p class="catalog-card__text">Конвейерные компоненты могут иметь модульную конструкцию для получения простой
-                  экономичной компоновки или, в качестве альтернативы, разработаны по индивидуальной спецификации.
-                </p>
-                <a class="catalog-card__link" href="#">Подробнее</a>
-              </div>
-            </li>
           </ul>
         </div>
       </section>
@@ -317,6 +269,51 @@
             </li>
           </ul>
         </div>
+      </section>
+      <section class="our-clients">
+        <h2 class="main-heading">Наши клиенты</h2>
+        <ul class="our-clients__list">
+          <li class="our-clients__item">
+            <div class="client">
+              <picture>
+                <source type="image/webp" srcset="img/content/client-alcohol.webp 1x, img/content/client-alcohol@2x.webp 2x">
+                <img class="client__img" src="img/content/client-alcohol.png" srcset="img/content/client-alcohol@2x.png 2x" alt="Логотип алкогольной компании">
+              </picture>
+            </div>
+          </li>
+          <li class="our-clients__item">
+            <div class="client">
+              <picture>
+                <source type="image/webp" srcset="img/content/client-besins.webp 1x, img/content/client-besins@2x.webp 2x">
+                <img class="client__img" src="img/content/client-besins.png" srcset="img/content/client-besins@2x.png 2x" alt="Логотип компании Besins">
+              </picture>
+            </div>
+          </li>
+          <li class="our-clients__item">
+            <div class="client">
+              <picture>
+                <source type="image/webp" srcset="img/content/client-krka.webp 1x, img/content/client-krka@2x.webp 2x">
+                <img class="client__img" src="img/content/client-krka.png" srcset="img/content/client-krka@2x.png 2x" alt="Логотип компании Krka">
+              </picture>
+            </div>
+          </li>
+          <li class="our-clients__item">
+            <div class="client">
+              <picture>
+                <source type="image/webp" srcset="img/content/client-amedart.webp 1x, img/content/client-amedart@2x.webp 2x">
+                <img class="client__img" src="img/content/client-amedart.png" srcset="img/content/client-amedart@2x.png 2x" alt="Логотип компании Амедарт">
+              </picture>
+            </div>
+          </li>
+          <li class="our-clients__item">
+            <div class="client">
+              <picture>
+                <source type="image/webp" srcset="img/content/client-invitro.webp 1x, img/content/client-invitro@2x.webp 2x">
+                <img class="client__img" src="img/content/client-invitro.png" srcset="img/content/client-invitro@2x.png 2x" alt="Логотип компании Инвитро">
+              </picture>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">

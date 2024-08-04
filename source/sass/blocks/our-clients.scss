@@ -1,0 +1,36 @@
+.our-clients {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $color-pattens-blue;
+
+  @include vp-767 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &__list {
+    @include list-reset;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+    @include vp-767 {
+      display: block;
+    }
+  }
+
+  &__item {
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+    @include vp-767 {
+      margin-right: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
