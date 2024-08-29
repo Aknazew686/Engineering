@@ -52,6 +52,31 @@
     }
   }
 
+  &__list {
+    @include list-reset;
+    margin-left: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: $color-night-rider;
+  }
+
+  &__item  {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: $color-night-rider;
+  }
+
+
   &__toggle {
     width: 35px;
     height: 26px;

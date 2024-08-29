@@ -18,12 +18,9 @@
   &__item {
     padding-right: 22px;
     margin-right: 22px;
-    border-right: 1px solid #E0E0E0;
 
     &:last-child {
-      padding-right: 0;
       margin-right: 0;
-      border-right: none;
     }
 
     @include vp-1023 {

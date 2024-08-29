@@ -137,36 +137,49 @@
   <div class="wrapper">
     <!-- для внутренних страниц используйте "headerActiveLinkIndex": 0\1\2 -->
     <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <div class="header__logo-wrapper">
-            <a class="header__logo" href="index.html" aria-label="Переход на главную">
-              <img class="header__logo-image header__logo-image--desctop" src="img/svg/logo-header.svg" width="200" height="62">
-              <img class="header__logo-image header__logo-image--mobile" src="img/svg/logo-header-mobile.svg" width="130" height="40">
-            </a>
-            <button class="header__toggle header__toggle--closed" type="button" aria-label="Переключатель отображения меню" aria-pressed="false"></button>
-          </div>
-          <nav class="main-nav">
-            <div class="main-nav__wrapper">
-              <ul class="main-nav__list">
-                <!--<li class="main-nav__item">
-              <a class="main-nav__link "  href="#" >Каталог</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link  is-active " >Комплексные решения для линий</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link "  href="technologies.html" >Технологии</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link "  href="company.html" >О нас</a>
-            </li> -->
-                <li class="main-nav__item">
-                  <a class="main-nav__link " href="contacts.html">Контакты</a>
-                </li>
-              </ul>
+      <div class="header__contact-wrapper">
+        <div class="container container--header">
+          <div class="header__wrapper">
+            <div class="header__logo-wrapper">
+              <a class="header__logo" href="index.html" aria-label="Переход на главную">
+                <img class="header__logo-image header__logo-image--desctop" src="img/svg/logo-header.svg" width="200" height="62">
+                <img class="header__logo-image header__logo-image--mobile" src="img/svg/logo-header-mobile.svg" width="130" height="40">
+              </a>
+              <button class="header__toggle header__toggle--closed" type="button" aria-label="Переключатель отображения меню" aria-pressed="false"></button>
             </div>
-          </nav>
+            <nav class="main-nav">
+              <div class="main-nav__wrapper">
+                <ul class="main-nav__list">
+                  <li class="main-nav__item">
+                    <a class="main-nav__link " href="#">Оборудование</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link  is-active ">Нестандартное оборудование</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link " href="#">Комплексные решения</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link " href="#">О нас</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link " href="contacts.html">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <ul class="header__list">
+              <li class="header__item">
+                <span class="header__link">8 (800) 550 01 30</span>
+              </li>
+              <li class="header__item">
+                <span class="header__link">8 (925) 443 22 00</span>
+              </li>
+              <li class="header__item">
+                <span class="header__link">info@complexengineering.ru</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -201,13 +214,16 @@
           <div class="footer-navigation">
             <ul class="footer-navigation__list">
               <li class="footer-navigation__item">
-                <a class="footer-navigation__link" href="company.html">О нас</a>
+                <a class="footer-navigation__link" href="#">Оборудование</a>
               </li>
               <li class="footer-navigation__item">
-                <a class="footer-navigation__link" href="technologies.html">Технологии</a>
+                <a class="footer-navigation__link" href="#">Нестандартное оборудование</a>
               </li>
               <li class="footer-navigation__item">
-                <a class="footer-navigation__link" href="complex.html">Комплексные решения для линий</a>
+                <a class="footer-navigation__link" href="#">Комплексные решения</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">О нас</a>
               </li>
               <li class="footer-navigation__item">
                 <a class="footer-navigation__link" href="contacts.html">Контакты</a>
@@ -223,10 +239,13 @@
                 <p class="footer-info__text">График работы: пн-пт с 08:00 до 18:00</p>
               </li>
               <li class="footer-info__item">
-                <a href="tel:+79254432200" class="footer-info__text footer-info__text--link">+7 (925) 443 22 00</a>
+                <span class="footer-info__text">8 (800) 550 01 30</span>
               </li>
               <li class="footer-info__item">
-                <a href="mailto:vv@lice.ru" class="footer-info__text footer-info__text--link">vv@lice.ru</a>
+                <span class="footer-info__text">8 (925) 443 22 00</span>
+              </li>
+              <li class="footer-info__item">
+                <span class="footer-info__text">info@complexengineering.ru</span>
               </li>
             </ul>
           </div>

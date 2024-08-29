@@ -13,11 +13,23 @@
   }
 
   &__item {
-    border: 2px solid $color-gainsboro;
     padding: 10px 10px 0 17px;
     margin-bottom: 30px;
     width: 530px;
     background-color: #ffffff;
+    position: relative;
+    cursor: pointer;
+
+    &:hover::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border: 2px solid $color-gainsboro;
+    }
+
 
     @include vp-1279 {
       width: 45%;

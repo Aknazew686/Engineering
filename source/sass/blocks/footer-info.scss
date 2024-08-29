@@ -23,12 +23,5 @@
     line-height: normal;
     color: $color-default-white;
     display: inline-block;
-
-    &--link {
-      &:hover,
-      &:focus {
-        opacity: 0.6;
-    }
-    }
   }
 }

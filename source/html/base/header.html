@@ -1,47 +1,60 @@
 <header class="header">
-  <div class="container">
-    <div class="header__wrapper">
-      <div class="header__logo-wrapper">
-        @@if (!context.index) {
-        <a class="header__logo" href="index.html" aria-label="Переход на главную">
-          <img class="header__logo-image header__logo-image--desctop" src="img/svg/logo-header.svg" width="200"
-            height="62">
-          <img class="header__logo-image header__logo-image--mobile" src="img/svg/logo-header-mobile.svg" width="130"
-            height="40">
-        </a>
-        }
-        @@if (context.index) {
-        <a class="header__logo" aria-label="Переход на главную">
-          <img class="header__logo-image header__logo-image--desctop" src="img/svg/logo-header.svg" width="200"
-            height="62">
-          <img class="header__logo-image header__logo-image--mobile" src="img/svg/logo-header-mobile.svg" width="130"
-            height="40">
-        </a>
-        }
-        <button class="header__toggle header__toggle--closed" type="button" aria-label="Переключатель отображения меню"
-          aria-pressed="false"></button>
-      </div>
-      <nav class="main-nav">
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
-            <!--<li class="main-nav__item">
-              <a class="main-nav__link @@if (context.headerActiveLinkIndex === 0) { is-active }" @@if (context.headerActiveLinkIndex !==0) { href="#" }>Каталог</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link @@if (context.headerActiveLinkIndex === 1) { is-active }" @@if (context.headerActiveLinkIndex !==1) { href="complex.html" }>Комплексные решения для линий</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link @@if (context.headerActiveLinkIndex === 2) { is-active }" @@if (context.headerActiveLinkIndex !==2) { href="technologies.html" }>Технологии</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link @@if (context.headerActiveLinkIndex === 3) { is-active }" @@if (context.headerActiveLinkIndex !==3) { href="company.html" }>О нас</a>
-            </li> -->
-            <li class="main-nav__item">
-              <a class="main-nav__link @@if (context.headerActiveLinkIndex === 4) { is-active }" @@if (context.headerActiveLinkIndex !==4) { href="contacts.html" }>Контакты</a>
-            </li>
-          </ul>
+  <div class="header__contact-wrapper">
+    <div class="container container--header">
+      <div class="header__wrapper">
+        <div class="header__logo-wrapper">
+          @@if (!context.index) {
+          <a class="header__logo" href="index.html" aria-label="Переход на главную">
+            <img class="header__logo-image header__logo-image--desctop" src="img/svg/logo-header.svg" width="200"
+              height="62">
+            <img class="header__logo-image header__logo-image--mobile" src="img/svg/logo-header-mobile.svg" width="130"
+              height="40">
+          </a>
+          }
+          @@if (context.index) {
+          <a class="header__logo" aria-label="Переход на главную">
+            <img class="header__logo-image header__logo-image--desctop" src="img/svg/logo-header.svg" width="200"
+              height="62">
+            <img class="header__logo-image header__logo-image--mobile" src="img/svg/logo-header-mobile.svg" width="130"
+              height="40">
+          </a>
+          }
+          <button class="header__toggle header__toggle--closed" type="button" aria-label="Переключатель отображения меню"
+            aria-pressed="false"></button>
         </div>
-      </nav>
+        <nav class="main-nav">
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link @@if (context.headerActiveLinkIndex === 0) { is-active }" @@if (context.headerActiveLinkIndex !==0) { href="#" }>Оборудование</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link @@if (context.headerActiveLinkIndex === 1) { is-active }" @@if (context.headerActiveLinkIndex !==1) { href="#" }>Нестандартное оборудование</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link @@if (context.headerActiveLinkIndex === 2) { is-active }" @@if (context.headerActiveLinkIndex !==2) { href="#" }>Комплексные решения</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link @@if (context.headerActiveLinkIndex === 3) { is-active }" @@if (context.headerActiveLinkIndex !==3) { href="#" }>О нас</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link @@if (context.headerActiveLinkIndex === 4) { is-active }" @@if (context.headerActiveLinkIndex !==4) { href="contacts.html" }>Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <ul class="header__list">
+          <li class="header__item">
+            <span class="header__link">8 (800) 550 01 30</span>
+          </li>
+          <li class="header__item">
+            <span class="header__link">8 (925) 443 22 00</span>
+          </li>
+          <li class="header__item">
+            <span class="header__link">info@complexengineering.ru</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </header>

@@ -20,6 +20,11 @@
     &:last-child {
       margin-bottom: 0;
     }
+
+    & a:hover,
+    &:focus {
+      opacity: 0.6;
+    }
   }
 
   &__link {

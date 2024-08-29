@@ -11,4 +11,8 @@
   @include vp-1023 {
     padding: 0 16px;
   }
+
+  &--header {
+    max-width: 1286px;
+  }
 }
