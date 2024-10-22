@@ -20,16 +20,6 @@
     position: relative;
     cursor: pointer;
 
-    &:hover::after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      border: 2px solid $color-gainsboro;
-    }
-
 
     @include vp-1279 {
       width: 45%;
@@ -38,6 +28,18 @@
 
     @include vp-767 {
       width: auto;
+    }
+  }
+
+  &__link {
+    &:hover::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border: 2px solid $color-gainsboro;
     }
   }
 }

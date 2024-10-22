@@ -22,7 +22,7 @@
   <!-- используйте только для шрифта находящегося на первом экране -->
   <!-- <link rel="preload" href="fonts/placeholder.woff2" as="font" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/style.min.css">
-  <title>Complex Engineering — О нас</title>
+  <title>Complex Engineering — Нестандартное оборудование</title>
 </head>
 
 <body>
@@ -155,13 +155,13 @@
                     <a class="main-nav__link " href="equipment.html">Оборудование</a>
                   </li>
                   <li class="main-nav__item">
-                    <a class="main-nav__link " href="non-standard-equipment.html">Нестандартное оборудование</a>
+                    <a class="main-nav__link  is-active ">Нестандартное оборудование</a>
                   </li>
                   <!--<li class="main-nav__item">
                 <a class="main-nav__link "  href="#" >Комплексные решения</a>
               </li>-->
                   <li class="main-nav__item">
-                    <a class="main-nav__link  is-active ">О нас</a>
+                    <a class="main-nav__link " href="company.html">О нас</a>
                   </li>
                   <li class="main-nav__item">
                     <a class="main-nav__link " href="contacts.html">Контакты</a>
@@ -185,16 +185,82 @@
       </div>
     </header>
     <main>
-      <section class="company">
+      <section class="main-description">
         <div class="container">
-          <picture>
-            <source type="image/webp" srcset="img/content/company.webp 1x, img/content/company@2x.webp 2x">
-            <img class="company__img" src="img/content/company.jpg" srcset="img/content/company@2x.jpg 2x" alt="Фотография серого здания с большими стеклами">
-          </picture>
-          <h1 class="page-heading">О нас</h1>
-          <p class="page-text">&nbsp;Компания ООО «Комплекс Инжиниринг» одна из ведущих компаний по промышленной автоматизации, которая специализируется на проектировании, разработке и производстве роботизированных комплексов, упаковщиков и прочих машин.</p>
-          <p class="page-text">&nbsp;Мы предоставляем комплексные решения с использованием автоматизации и роботизации процессов, уделяя особое внимание качественному контролю на каждом технологическом этапе производства. Системы автоматизации создаются под каждого клиента индивидуально и оптимизированы для повышения эффективности и рационализации производственного процесса.</p>
-          <p class="page-text">&nbsp;Компания ООО «Комплекс Инжиниринг» занимает одно из лидирующих мест по поставкам оборудования и комплектующих, так как обладает большим опытом проектирования, производства и обслуживания основного и вспомогательного оборудования.</p>
+          <h1 class="main-description__heading">нестандартное оборудование</h1>
+          <p class="main-description__text main-description__text--equipment">
+            Разработка и производство технологического оборудования, роботизированных комплексов, упаковщиков и прочих машин.</p>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="container">
+          <h2 class="visually-hidden">Каталог</h2>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <a class="catalog__link" href="palletizer.html">
+                <div class="catalog-card">
+                  <div class="catalog-card__wrapper">
+                    <p class="catalog-card__heading">Паллетайзеры</p>
+                    <picture>
+                      <source type="image/webp" srcset="img/content/equipment.webp 1x, img/content/equipment@2x.webp 2x">
+                      <img class="catalog-card__img" src="img/content/equipment.jpg" srcset="img/content/equipment@2x.jpg 2x" alt="Картинка паллетайзера">
+                    </picture>
+                  </div>
+                  <p class="catalog-card__text">Оборудование предназначено для технологической автоматизации предприятия.
+                  </p>
+                  <a class="catalog-card__link" href="#">Подробнее</a>
+                </div>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="palletizer.html">
+                <div class="catalog-card">
+                  <div class="catalog-card__wrapper">
+                    <p class="catalog-card__heading">Кейс пакеры</p>
+                    <picture>
+                      <source type="image/webp" srcset="img/content/equipment.webp 1x, img/content/equipment@2x.webp 2x">
+                      <img class="catalog-card__img" src="img/content/equipment.jpg" srcset="img/content/equipment@2x.jpg 2x" alt="Картинка паллетайзера">
+                    </picture>
+                  </div>
+                  <p class="catalog-card__text">Оборудование предназначено для технологической автоматизации предприятия.
+                  </p>
+                  <a class="catalog-card__link" href="#">Подробнее</a>
+                </div>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="palletizer.html">
+                <div class="catalog-card">
+                  <div class="catalog-card__wrapper">
+                    <p class="catalog-card__heading">Формирователи коробов</p>
+                    <picture>
+                      <source type="image/webp" srcset="img/content/equipment.webp 1x, img/content/equipment@2x.webp 2x">
+                      <img class="catalog-card__img" src="img/content/equipment.jpg" srcset="img/content/equipment@2x.jpg 2x" alt="Картинка паллетайзера">
+                    </picture>
+                  </div>
+                  <p class="catalog-card__text">Оборудование предназначено для технологической автоматизации предприятия.
+                  </p>
+                  <a class="catalog-card__link" href="#">Подробнее</a>
+                </div>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="palletizer.html">
+                <div class="catalog-card">
+                  <div class="catalog-card__wrapper">
+                    <p class="catalog-card__heading">Конвеерное оборудование</p>
+                    <picture>
+                      <source type="image/webp" srcset="img/content/equipment.webp 1x, img/content/equipment@2x.webp 2x">
+                      <img class="catalog-card__img" src="img/content/equipment.jpg" srcset="img/content/equipment@2x.jpg 2x" alt="Картинка паллетайзера">
+                    </picture>
+                  </div>
+                  <p class="catalog-card__text">Оборудование предназначено для технологической автоматизации предприятия.
+                  </p>
+                  <a class="catalog-card__link" href="#">Подробнее</a>
+                </div>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
